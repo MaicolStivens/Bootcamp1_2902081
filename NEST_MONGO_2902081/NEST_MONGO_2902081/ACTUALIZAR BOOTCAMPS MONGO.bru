@@ -1,0 +1,23 @@
+meta {
+  name: ACTUALIZAR BOOTCAMPS MONGO
+  type: http
+  seq: 5
+}
+
+patch {
+  url: http://localhost:3000/bootcamps/672cd0693f17369cac3edeb4
+  body: json
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {
+    
+    "avarageRating": 2
+    
+  }
+}
